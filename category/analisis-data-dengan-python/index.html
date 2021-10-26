@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>Analisis Data dengan Python &#8211; Pangudi Jatirahardi</title>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="Pangudi Jatirahardi &raquo; Feed" href="https://pangudijr.github.io/me/feed/">
+<link rel="alternate" type="application/rss+xml" title="Pangudi Jatirahardi &raquo; Comments Feed" href="https://pangudijr.github.io/me/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Pangudi Jatirahardi &raquo; Analisis Data dengan Python Category Feed" href="https://pangudijr.github.io/me/category/analisis-data-dengan-python/feed/">
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/pangudijr.github.io\/me\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="https://pangudijr.github.io/me/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="https://pangudijr.github.io/me/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.10.0" media="all">
+<link rel="stylesheet" id="elementor-animations-css" href="https://pangudijr.github.io/me/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.1.0" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="https://pangudijr.github.io/me/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.1.0" media="all">
+<link rel="stylesheet" id="elementor-post-8-css" href="https://pangudijr.github.io/me/wp-content/uploads/elementor/css/post-8.css?ver=1625373963" media="all">
+<link rel="stylesheet" id="elementor-pro-css" href="https://pangudijr.github.io/me/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.0.10" media="all">
+<link rel="stylesheet" id="elementor-post-502-css" href="https://pangudijr.github.io/me/wp-content/uploads/elementor/css/post-502.css?ver=1635247809" media="all">
+<link rel="stylesheet" id="elementor-post-518-css" href="https://pangudijr.github.io/me/wp-content/uploads/elementor/css/post-518.css?ver=1635247903" media="all">
+<link rel="stylesheet" id="ct-main-styles-css" href="https://pangudijr.github.io/me/wp-content/themes/blocksy/static/bundle/main.min.css?ver=1.8.3.4" media="all">
+<link rel="stylesheet" id="ct-elementor-styles-css" href="https://pangudijr.github.io/me/wp-content/themes/blocksy/static/bundle/elementor-frontend.min.css?ver=1.8.3.4" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.7.2" media="all">
+<link rel="https://api.w.org/" href="https://pangudijr.github.io/me/wp-json/">
+<link rel="alternate" type="application/json" href="https://pangudijr.github.io/me/wp-json/wp/v2/categories/12">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pangudijr.github.io/me/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://pangudijr.github.io/me/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.7.2">
+<noscript><link rel="stylesheet" href="https://pangudijr.github.io/me/wp-content/themes/blocksy/static/bundle/no-scripts.min.css" type="text/css"></noscript>
+<style id="ct-main-styles-inline-css">[data-header*="type-1"] .ct-header [data-id="logo"] .site-title {--fontWeight:700;--fontSize:25px;--linkInitialColor:var(--paletteColor4);} [data-header*="type-1"] .ct-header [data-id="menu"] > ul > li > a {--fontWeight:700;--textTransform:uppercase;--fontSize:12px;--lineHeight:1.3;--linkInitialColor:var(--color);} [data-header*="type-1"] .ct-header [data-id="menu"][data-menu*="type-3"] > ul > li > a {--linkHoverColor:#ffffff;} [data-header*="type-1"] .ct-header [data-id="menu"] .sub-menu {--linkInitialColor:#ffffff;--fontWeight:500;--fontSize:12px;--dropdown-divider:1px dashed rgba(255, 255, 255, 0.1);--box-shadow:0px 10px 20px rgba(41, 51, 61, 0.1);--border-radius:0px 0px 2px 2px;} [data-header*="type-1"] .ct-header [data-row*="middle"] {--height:120px;--background-image:none;--background-color:rgba(183, 48, 48, 0);--borderTop:none;--borderBottom:none;--box-shadow:none;} [data-header*="type-1"] .ct-header [data-row*="middle"] > div {--borderTop:none;--borderBottom:none;} [data-header*="type-1"] [data-id="mobile-menu"] {--fontWeight:700;--fontSize:30px;--linkInitialColor:#ffffff;--mobile-menu-divider:1px solid rgba(255, 255, 255, 0.2);} [data-header*="type-1"] #offcanvas > section {--background-image:none;--background-color:rgba(18, 21, 25, 0.98);} [data-header*="type-1"] #offcanvas {--background-image:none;--background-color:rgba(255,255,255,0);--side-panel-width:500px;} [data-header*="type-1"] [data-behaviour*="side"] {--box-shadow:0px 0px 70px rgba(0, 0, 0, 0.35);} [data-header*="type-1"] [data-id="search"] .ct-label {--fontWeight:600;--textTransform:uppercase;--fontSize:12px;} [data-header*="type-1"] #search-modal {--linkInitialColor:#ffffff;--background-image:none;--background-color:rgba(18, 21, 25, 0.98);} [data-header*="type-1"] [data-id="trigger"] {--icon-size:18px;} [data-header*="type-1"] [data-id="trigger"] .ct-label {--fontWeight:600;--textTransform:uppercase;--fontSize:12px;} [data-header*="type-1"] {--headerHeight:120px;} [data-footer*="type-1"] .ct-footer [data-row*="bottom"] > div {--container-spacing:25px;--columns-gap:60px;--border:none;--border-top:none;--border-bottom:none;--grid-template-colummns:initial;} [data-footer*="type-1"] .ct-footer [data-row*="bottom"] .widget-title {--fontSize:16px;} [data-footer*="type-1"] .ct-footer [data-row*="bottom"] {--border-top:none;--border-bottom:none;--background-image:none;--overlay-color:none;--background-color:transparent;} [data-footer*="type-1"] [data-id="copyright"] {--fontWeight:400;--fontSize:15px;--lineHeight:1.3;} [data-footer*="type-1"] footer.ct-footer {--background-image:none;--background-color:var(--paletteColor6);}:root {--fontFamily:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';--fontWeight:400;--textTransform:none;--textDecoration:none;--fontSize:16px;--lineHeight:1.65;--letterSpacing:0em;--buttonFontWeight:500;--buttonFontSize:15px;--has-classic-forms:var(--true);--has-modern-forms:var(--false);--form-field-border-initial-color:var(--border-color);--form-field-border-focus-color:var(--paletteColor1);--form-selection-control-initial-color:var(--border-color);--form-selection-control-accent-color:var(--paletteColor1);--paletteColor1:#3eaf7c;--paletteColor2:#33a370;--paletteColor3:#415161;--paletteColor4:#2c3e50;--paletteColor5:#E2E7ED;--paletteColor6:#edeff2;--paletteColor7:#f8f9fb;--paletteColor8:#ffffff;--color:var(--paletteColor3);--linkInitialColor:var(--paletteColor1);--linkHoverColor:var(--paletteColor2);--selectionTextColor:#ffffff;--selectionBackgroundColor:var(--paletteColor1);--border-color:var(--paletteColor5);--headings-color:var(--paletteColor4);--contentSpacing:1.5em;--buttonMinHeight:40px;--buttonTextInitialColor:#ffffff;--buttonTextHoverColor:#ffffff;--buttonInitialColor:var(--paletteColor1);--buttonHoverColor:var(--paletteColor2);--button-border:none;--buttonBorderRadius:3px;--container-max-width:1290px;--content-vertical-spacing:60px;--narrow-container-max-width:750px;--wide-offset:130px;}h1 {--fontWeight:700;--fontSize:40px;--lineHeight:1.5;}h2 {--fontWeight:700;--fontSize:35px;--lineHeight:1.5;}h3 {--fontWeight:700;--fontSize:30px;--lineHeight:1.5;}h4 {--fontWeight:700;--fontSize:25px;--lineHeight:1.5;}h5 {--fontWeight:700;--fontSize:20px;--lineHeight:1.5;}h6 {--fontWeight:700;--fontSize:16px;--lineHeight:1.5;}.wp-block-quote.is-style-large p, .wp-block-pullquote p, .ct-quote-widget blockquote {--fontFamily:Georgia, Sans-Serif;--fontWeight:600;--fontSize:25px;}code, kbd, samp, pre {--fontFamily:monospace, Sans-Serif;--fontWeight:400;--fontSize:16px;}.ct-sidebar .widget-title {--fontSize:18px;}body {--background-image:none;--background-color:var(--paletteColor7);} [data-prefix="single_blog_post"] .entry-header .page-title {--fontSize:32px;} [data-prefix="single_blog_post"] .entry-header .entry-meta {--fontWeight:600;--textTransform:uppercase;--fontSize:12px;--lineHeight:1.5;} [data-prefix="categories"] .entry-header .page-title {--fontSize:32px;} [data-prefix="categories"] .entry-header .entry-meta {--fontWeight:600;--textTransform:uppercase;--fontSize:12px;--lineHeight:1.5;} [data-prefix="search"] .entry-header .page-title {--fontSize:32px;} [data-prefix="search"] .entry-header .entry-meta {--fontWeight:600;--textTransform:uppercase;--fontSize:12px;--lineHeight:1.5;} [data-prefix="author"] .entry-header .page-title {--fontSize:32px;} [data-prefix="author"] .entry-header .entry-meta {--fontWeight:600;--textTransform:uppercase;--fontSize:12px;--lineHeight:1.5;} [data-prefix="author"] .hero-section[data-type="type-2"] {--background-image:none;--background-color:var(--paletteColor6);--container-padding:50px 0;} [data-prefix="single_page"] .entry-header .page-title {--fontSize:32px;} [data-prefix="single_page"] .entry-header .entry-meta {--fontWeight:600;--textTransform:uppercase;--fontSize:12px;--lineHeight:1.5;} [data-prefix="blog"] .entry-card .entry-title {--fontSize:20px;--lineHeight:1.3;} [data-prefix="blog"] .entry-card .entry-meta {--fontWeight:600;--textTransform:uppercase;--fontSize:12px;} [data-prefix="blog"] [data-cards="boxed"] .entry-card {--box-shadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);} [data-prefix="categories"] .entry-card .entry-title {--fontSize:20px;--lineHeight:1.3;} [data-prefix="categories"] .entry-card .entry-meta {--fontWeight:600;--textTransform:uppercase;--fontSize:12px;} [data-prefix="categories"] [data-cards="boxed"] .entry-card {--box-shadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);} [data-prefix="author"] .entry-card .entry-title {--fontSize:20px;--lineHeight:1.3;} [data-prefix="author"] .entry-card .entry-meta {--fontWeight:600;--textTransform:uppercase;--fontSize:12px;} [data-prefix="author"] [data-cards="boxed"] .entry-card {--box-shadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);} [data-prefix="search"] .entry-card .entry-title {--fontSize:20px;--lineHeight:1.3;} [data-prefix="search"] .entry-card .entry-meta {--fontWeight:600;--textTransform:uppercase;--fontSize:12px;} [data-prefix="search"] [data-cards="boxed"] .entry-card {--box-shadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);}form textarea {--form-field-height:170px;}.ct-sidebar {--linkInitialColor:var(--color);} [data-prefix="single_blog_post"] .ct-share-box[data-type="type-1"] {--border:1px solid var(--border-color);} [data-prefix="single_blog_post"] .post-navigation {--linkInitialColor:var(--color);} [data-prefix="single_blog_post"] .ct-related-posts-container {--background-image:none;--background-color:var(--paletteColor6);} [data-prefix="single_blog_post"] .ct-related-posts {--visibility:grid;} [data-prefix="single_blog_post"] article[class*="post"] {--has-boxed:var(--false);--has-wide:var(--true);} [data-prefix="single_page"] article[class*="post"] {--has-boxed:var(--false);--has-wide:var(--true);}</style>
+<style id="ct-main-styles-tablet-inline-css" media="(max-width: 999.98px)">[data-header*="type-1"] .ct-header [data-row*="middle"] {--height:70px;} [data-header*="type-1"] #offcanvas {--side-panel-width:65vw;} [data-header*="type-1"] {--headerHeight:70px;} [data-footer*="type-1"] .ct-footer [data-row*="bottom"] > div {--columns-gap:40px;--grid-template-colummns:initial;} [data-prefix="single_blog_post"] .entry-header .page-title {--fontSize:30px;} [data-prefix="categories"] .entry-header .page-title {--fontSize:30px;} [data-prefix="search"] .entry-header .page-title {--fontSize:30px;} [data-prefix="author"] .entry-header .page-title {--fontSize:30px;} [data-prefix="single_page"] .entry-header .page-title {--fontSize:30px;} [data-prefix="single_blog_post"] .ct-related-posts {--visibility:none;}</style>
+<style id="ct-main-styles-mobile-inline-css" media="(max-width: 689.98px)">[data-header*="type-1"] [data-id="mobile-menu"] {--fontSize:20px;} [data-header*="type-1"] #offcanvas {--side-panel-width:90vw;} [data-footer*="type-1"] .ct-footer [data-row*="bottom"] > div {--container-spacing:15px;--grid-template-colummns:initial;} [data-prefix="single_blog_post"] .entry-header .page-title {--fontSize:25px;} [data-prefix="categories"] .entry-header .page-title {--fontSize:25px;} [data-prefix="search"] .entry-header .page-title {--fontSize:25px;} [data-prefix="author"] .entry-header .page-title {--fontSize:25px;} [data-prefix="single_page"] .entry-header .page-title {--fontSize:25px;} [data-prefix="blog"] .entry-card .entry-title {--fontSize:18px;} [data-prefix="categories"] .entry-card .entry-title {--fontSize:18px;} [data-prefix="author"] .entry-card .entry-title {--fontSize:18px;} [data-prefix="search"] .entry-card .entry-title {--fontSize:18px;}:root {--content-vertical-spacing:50px;}</style>
+<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<link rel="icon" href="https://pangudijr.github.io/me/wp-content/uploads/2021/07/cropped-github-32x32.png" sizes="32x32">
+<link rel="icon" href="https://pangudijr.github.io/me/wp-content/uploads/2021/07/cropped-github-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://pangudijr.github.io/me/wp-content/uploads/2021/07/cropped-github-180x180.png">
+<meta name="msapplication-TileImage" content="https://pangudijr.github.io/me/wp-content/uploads/2021/07/cropped-github-270x270.png">
+		<style id="wp-custom-css">#header {
+    position: absolute;
+    width: 100%;
+	z-index: 50; }</style>
+			</head>
+
+<body class="archive category category-analisis-data-dengan-python category-12 wp-custom-logo wp-embed-responsive elementor-default elementor-template-full-width elementor-kit-8 elementor-page-518 ct-loading" data-link="type-2" data-prefix="categories" data-header="type-1" data-footer="type-1">
+
+<a class="skip-link show-on-focus" href="#main">
+	Skip to content</a>
+
+
+<div id="main-container">
+			<div data-elementor-type="header" data-elementor-id="502" class="elementor elementor-502 elementor-location-header" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-8381302 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8381302" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6ae2046" data-id="6ae2046" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6a8a9f0 elementor-nav-menu__align-center elementor-nav-menu--stretch elementor-nav-menu__text-align-center elementor-nav-menu--indicator-classic elementor-nav-menu--dropdown-tablet elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="6a8a9f0" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none"><ul id="menu-1-6a8a9f0" class="elementor-nav-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-522"><a href="https://pangudijr.github.io/me/" class="elementor-item">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-512">
+<a href="https://pangudijr.github.io/me/projects/" class="elementor-item">Projects</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-513"><a href="https://pangudijr.github.io/me/category/analisis-data-dengan-aplikasi-stata/" class="elementor-sub-item">Analisis Data dengan Aplikasi Stata</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-514"><a href="https://pangudijr.github.io/me/category/analisis-data-dengan-python/" aria-current="page" class="elementor-sub-item elementor-item-active">Analisis Data dengan Python</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-515"><a href="https://pangudijr.github.io/me/category/membuat-website-dengan-cms-wordpress/" class="elementor-sub-item">Membuat Website dengan CMS WordPress</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-516"><a href="https://pangudijr.github.io/me/category/membuat-website-dengan-laravel/" class="elementor-sub-item">Membuat Website dengan Laravel</a></li>
+</ul>
+</li>
+</ul></nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i class="eicon-menu-bar" aria-hidden="true"></i>
+			<span class="elementor-screen-only">Menu</span>
+		</div>
+			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true"><ul id="menu-2-6a8a9f0" class="elementor-nav-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-522"><a href="https://pangudijr.github.io/me/" class="elementor-item">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-512">
+<a href="https://pangudijr.github.io/me/projects/" class="elementor-item">Projects</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-513"><a href="https://pangudijr.github.io/me/category/analisis-data-dengan-aplikasi-stata/" class="elementor-sub-item">Analisis Data dengan Aplikasi Stata</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-514"><a href="https://pangudijr.github.io/me/category/analisis-data-dengan-python/" aria-current="page" class="elementor-sub-item elementor-item-active">Analisis Data dengan Python</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-515"><a href="https://pangudijr.github.io/me/category/membuat-website-dengan-cms-wordpress/" class="elementor-sub-item">Membuat Website dengan CMS WordPress</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-516"><a href="https://pangudijr.github.io/me/category/membuat-website-dengan-laravel/" class="elementor-sub-item">Membuat Website dengan Laravel</a></li>
+</ul>
+</li>
+</ul></nav>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				</div>
+		</div>
+		
+	<main id="main" class="site-main hfeed" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+
+				<div data-elementor-type="archive" data-elementor-id="518" class="elementor elementor-518 elementor-location-archive" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-6153be4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6153be4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-98bc973" data-id="98bc973" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b8f2448 elementor-widget elementor-widget-theme-archive-title elementor-page-title elementor-widget-heading" data-id="b8f2448" data-element_type="widget" data-widget_type="theme-archive-title.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Category: Analisis Data dengan Python</h1>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-b1b4a52 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b1b4a52" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cb1dcd8" data-id="cb1dcd8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7eae520 elementor-grid-1 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-posts--thumbnail-top elementor-posts--show-avatar elementor-card-shadow-yes elementor-posts__hover-gradient elementor-widget elementor-widget-archive-posts" data-id="7eae520" data-element_type="widget" data-settings="{&quot;archive_cards_columns&quot;:&quot;1&quot;,&quot;archive_cards_columns_tablet&quot;:&quot;2&quot;,&quot;archive_cards_columns_mobile&quot;:&quot;1&quot;,&quot;archive_cards_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:35,&quot;sizes&quot;:[]}}" data-widget_type="archive-posts.archive_cards">
+				<div class="elementor-widget-container">
+					<div class="elementor-posts-container elementor-posts elementor-posts--skin-cards">
+		<div class="elementor-posts-nothing-found">It seems we can&#039;t find what you&#039;re looking for.</div>		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				</div>
+		</div>
+			</main>
+
+	<footer class="ct-footer" data-id="type-1" itemscope="" itemtype="https://schema.org/WPFooter"><div data-row="bottom"><div class="ct-container" data-columns-divider="md:sm"><div data-column="copyright">
+<div class="ct-footer-copyright" data-id="copyright">
+
+	<p>Copyright © 2021 Pangudi Jatirahardi - Made with ♡ by me</p>
+</div>
+</div></div></div></footer>
+</div>
+
+<script id="ct-scripts-js-extra">
+var ct_localizations = {"ajax_url":"https:\/\/pangudijr.github.io\/me\/wp-admin\/admin-ajax.php","nonce":"4ee91c7b18","public_url":"https:\/\/pangudijr.github.io\/me\/wp-content\/themes\/blocksy\/static\/bundle\/","rest_url":"https:\/\/pangudijr.github.io\/me\/wp-json\/","search_url":"https:\/\/pangudijr.github.io\/me\/search\/QUERY_STRING\/","show_more_text":"Show more","more_text":"More","dynamic_js_chunks":[]};
+</script>
+<script src="https://pangudijr.github.io/me/wp-content/themes/blocksy/static/bundle/main.js?ver=1.8.3.4" id="ct-scripts-js"></script>
+<script src="https://pangudijr.github.io/me/wp-includes/js/wp-embed.min.js?ver=5.7.2" id="wp-embed-js"></script>
+<script src="https://pangudijr.github.io/me/wp-includes/js/jquery/jquery.min.js?ver=3.5.1" id="jquery-core-js"></script>
+<script src="https://pangudijr.github.io/me/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script src="https://pangudijr.github.io/me/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1" id="smartmenus-js"></script>
+<script src="https://pangudijr.github.io/me/wp-includes/js/imagesloaded.min.js?ver=4.1.4" id="imagesloaded-js"></script>
+<script src="https://pangudijr.github.io/me/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.1.0" id="elementor-webpack-runtime-js"></script>
+<script src="https://pangudijr.github.io/me/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.1.0" id="elementor-frontend-modules-js"></script>
+<script src="https://pangudijr.github.io/me/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.0.10" id="elementor-sticky-js"></script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/pangudijr.github.io\/me\/wp-admin\/admin-ajax.php","nonce":"5e683add91","i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/pangudijr.github.io\/me\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src="https://pangudijr.github.io/me/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.0.10" id="elementor-pro-frontend-js"></script>
+<script src="https://pangudijr.github.io/me/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1" id="jquery-ui-core-js"></script>
+<script src="https://pangudijr.github.io/me/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
+<script src="https://pangudijr.github.io/me/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script src="https://pangudijr.github.io/me/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.1.0" id="share-link-js"></script>
+<script src="https://pangudijr.github.io/me/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6" id="swiper-js"></script>
+<script src="https://pangudijr.github.io/me/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4" id="wp-polyfill-js"></script>
+<script id="wp-polyfill-js-after">
+( 'fetch' in window ) || document.write( '<script src="https://pangudijr.github.io/me/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"><\/scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://pangudijr.github.io/me/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"><\/scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://pangudijr.github.io/me/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"><\/scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://pangudijr.github.io/me/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"><\/scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://pangudijr.github.io/me/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"><\/scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://pangudijr.github.io/me/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"><\/scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="https://pangudijr.github.io/me/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4"><\/scr' + 'ipt>' );
+</script>
+<script src="https://pangudijr.github.io/me/wp-includes/js/dist/hooks.min.js?ver=50e23bed88bcb9e6e14023e9961698c1" id="wp-hooks-js"></script>
+<script src="https://pangudijr.github.io/me/wp-includes/js/dist/i18n.min.js?ver=db9a9a37da262883343e941c3731bc67" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
+</script>
+<script id="elementor-frontend-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "elementor", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false,"isImprovedAssetsLoading":false},"i18n":[],"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.1.0","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"landing-pages":true},"urls":{"assets":"https:\/\/pangudijr.github.io\/me\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":0,"title":"Analisis Data dengan Python &#8211; Pangudi Jatirahardi","excerpt":""}};
+</script>
+<script src="https://pangudijr.github.io/me/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.1.0" id="elementor-frontend-js"></script>
+<script src="https://pangudijr.github.io/me/wp-content/plugins/elementor/assets/js/preloaded-elements-handlers.min.js?ver=3.1.0" id="preloaded-elements-handlers-js"></script>
+<script src="https://pangudijr.github.io/me/wp-includes/js/underscore.min.js?ver=1.8.3" id="underscore-js"></script>
+<script id="wp-util-js-extra">
+var _wpUtilSettings = {"ajax":{"url":"\/me\/wp-admin\/admin-ajax.php"}};
+</script>
+<script src="https://pangudijr.github.io/me/wp-includes/js/wp-util.min.js?ver=5.7.2" id="wp-util-js"></script>
+<script id="wpforms-elementor-js-extra">
+var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"};
+</script>
+<script src="https://pangudijr.github.io/me/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.6.7.2" id="wpforms-elementor-js"></script>
+
+</body>
+</html>

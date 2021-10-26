@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Membuat Website dengan CMS WordPress &#8211; Pangudi Jatirahardi</title>
+	<atom:link href="https://pangudijr.github.io/me/category/membuat-website-dengan-cms-wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>https://pangudijr.github.io/me</link>
+	<description>Personal Profile</description>
+	<lastBuildDate>Tue, 26 Oct 2021 11:39:54 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://pangudijr.github.io/me/wp-content/uploads/2021/07/cropped-github-32x32.png</url>
+	<title>Membuat Website dengan CMS WordPress &#8211; Pangudi Jatirahardi</title>
+	<link>https://pangudijr.github.io/me</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Membuat Website Tanpa Coding dengan Cepat</title>
+		<link>https://pangudijr.github.io/me/2021/10/26/membuat-website-tanpa-coding-dengan-cepat/</link>
+					<comments>https://pangudijr.github.io/me/2021/10/26/membuat-website-tanpa-coding-dengan-cepat/#respond</comments>
+		
+		<dc:creator><![CDATA[pangudijr]]></dc:creator>
+		<pubDate>Tue, 26 Oct 2021 11:39:54 +0000</pubDate>
+				<category><![CDATA[Membuat Website dengan CMS Wordpress]]></category>
+		<guid isPermaLink="false">https://pangudijr.github.io/me/?p=523</guid>
+
+					<description><![CDATA[Pada era digital ini, hampir semua aktifitas dipulikasikan melalui website. Mulai dari company profile, artikel blog, transaksi jual beli, dan banyak hal dibuatkan websitenya sendiri bahkan hingga jadi aplikasi. Kali ini, saya akan membagikan tutorial membuat website tanpa coding, jadi tidak perlu khawatir bagi yang tidak memiliki latar belakang jurusan IT. Sobat jago bisa mengikuti tutorial ini hingga selesai dengan tujuan akhir dapat membuat&#160;website pribadi, website company profile, website blog, dan website artikel berita (news)&#160;sendiri tanpa coding. Apabila kamu tertarik untuk mengikuti kelas website tanpa coding yang dapat diakses selamanya dengan materi yang sangat lengkap ditambah bonus download plugins, themes,…]]></description>
+										<content:encoded><![CDATA[
+<p>Pada era digital ini, hampir semua aktifitas dipulikasikan melalui website. Mulai dari company profile, artikel blog, transaksi jual beli, dan banyak hal dibuatkan websitenya sendiri bahkan hingga jadi aplikasi.</p>
+
+
+
+<p>Kali ini, saya akan membagikan tutorial membuat website tanpa coding, jadi tidak perlu khawatir bagi yang tidak memiliki latar belakang jurusan IT. Sobat jago bisa mengikuti tutorial ini hingga selesai dengan tujuan akhir dapat membuat&nbsp;<strong>website pribadi, website company profile, website blog, dan website artikel berita (news)</strong>&nbsp;sendiri tanpa coding.</p>
+
+
+
+<p>Apabila kamu tertarik untuk mengikuti kelas website tanpa coding yang dapat diakses selamanya dengan materi yang sangat lengkap ditambah bonus download plugins, themes, group konsultasi telegram dan tutorial lengkap dibimbing langsung oleh ahlinya silahkan klik link di bawah ini:</p>
+
+
+
+<p><a href="https://tambahjago.com/kelas/bikin-website-tanpa-ngoding/" target="_blank" rel="noreferrer noopener">Kelas Website Tanpa Coding</a></p>
+
+
+
+<p>Langkah langkah yang harus dilakukan untuk membuat website tanpa coding:</p>
+
+
+
+<ol id="block-e828e400-31ea-4838-916d-098d1ea12c23"><li><a href="https://tambahjago.com/uncategorized/hosting-gratis/" target="_blank" rel="noreferrer noopener">Install WordPress di Hosting (Opsi Alternatif untuk belajar)</a></li><li><a href="https://tambahjago.com/tutorial-wordpress/install-wordpress-di-cpanel/" target="_blank" rel="noreferrer noopener">Install WordPress di Cpanel hosting berbayar</a></li><li><a href="https://tambahjago.com/tutorial-wordpress/pengaturan-dasar-website-identitas-permalink-dan-halaman-utama/" target="_blank" rel="noreferrer noopener">Pengaturan Dasar Website (identitas, permalink, dan halaman utama)</a></li><li><a href="https://tambahjago.com/tutorial-wordpress/memasang-plugins-templates-dan-themes-website-company-profile/" target="_blank" rel="noreferrer noopener">Pasang Plugins, Templates dan Themes website untuk kebutuhan dasar seperti Website Company Profile</a></li><li><a href="https://tambahjago.com/tutorial-wordpress/membuat-dan-mengedit-halaman-dengan-elementor/" target="_blank" rel="noreferrer noopener">Membuat dan Mengedit Halaman dengan Elementor</a></li><li><a href="https://tambahjago.com/tutorial-wordpress/membuat-email-subscription-untuk-update-post-terbaru-kepada-pengunjung-website/" target="_blank" rel="noreferrer noopener">Membuat email subscription untuk update post terbaru kepada pengunjung website</a></li></ol>
+
+
+
+<p>Langsung saja, ikuti tutorial di atas dengan mengklik link nomor 1 atau 2. Apabila kamu sudah memiliki hosting sendiri silahkan langsung klik&nbsp;<a href="https://tambahjago.com/tambah-jago-skill-yuk/install-wordpress-di-cpanel/" target="_blank" rel="noreferrer noopener">Install WordPress di Cpanel hosting berbayar</a>. Namun jika kamu belum memiliki hosting berbayar, kamu bisa belajar dengan hosting gratis dulu dengan klik&nbsp;<a href="https://tambahjago.com/uncategorized/hosting-gratis/">Install WordPress di Hosting (Opsi Alternatif untuk belajar)</a>.</p>
+
+
+
+<p>Sekian tutorial yang dapat anda praktekkan secara langsung, pastikan mengikuti langkah langkah di atas. Apabila ada pertanyaan, silahkan hubungi saya melalui live chat pada pojok kanan bawah. Selamat mencoba agar makin #tambahjago</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://pangudijr.github.io/me/2021/10/26/membuat-website-tanpa-coding-dengan-cepat/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
